@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { logoutUser, setUser } from "../slices/authSlice"; // Correctly imported setUser action and logoutUser action
 import { useLogoutMutation, useCheckAuthMutation } from "../slices/apiSlice"; // Using correct API slice hooks
 import { useEffect } from "react";
-import { formatDate } from "../utils/date";
+import { formatDate } from "../utils/formalDate";
 import { useNavigate } from "react-router-dom";
 
 const DashboardPage = () => {
