@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const API_URL =
-  import.meta.env.MODE === "development"
+  import.meta.env.NODE_ENV === "development"
     ? "http://localhost:3001/api/auth"
     : "/api/auth";
 
